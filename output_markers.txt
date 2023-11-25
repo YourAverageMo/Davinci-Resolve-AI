@@ -1,0 +1,8 @@
+001 001 V C 44.50 45.50 44.50 45.50
+ |C:ResolveColorDeath |M:Marker 001 |D:1
+002 001 V C 96.50 97.50 96.50 97.50
+ |C:ResolveColorKill |M:Marker 002 |D:1
+003 001 V C 108.00 109.00 108.00 109.00
+ |C:ResolveColorassist |M:Marker 003 |D:1
+004 001 V C 117.50 118.50 117.50 118.50
+ |C:ResolveColorDeath |M:Marker 004 |D:1
