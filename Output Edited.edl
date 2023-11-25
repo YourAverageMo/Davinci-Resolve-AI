@@ -1,0 +1,12 @@
+TITLE: Timeline 1
+FCM: NON-DROP FRAME
+
+<enum_padded>  001      V     C        <marker1_start_time> <marker1_start_time_plus_1_frame> <marker1_start_time> <marker1_start_time_plus_1_frame>  
+ |C:Resolve<marker_color> |M:Marker <enum_not_padded> |D:1
+
+<enum_padded>  001      V     C        <marker2_start_time> <marker2_start_time_plus_1_frame> <marker2_start_time> <marker2_start_time_plus_1_frame>  
+ |C:Resolve<marker_color> |M:Marker <enum_not_padded> |D:1
+
+<enum_padded>  001      V     C        <marker3_start_time> <marker3_start_time_plus_1_frame> <marker3_start_time> <marker3_start_time_plus_1_frame>  
+ |C:Resolve<marker_color> |M:Marker <enum_not_padded> |D:1
+

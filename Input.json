@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "00:00:45",
+    "type": "Death",
+    "inputPath": "F:\\Videos\\THE FINALS\\2023-11-04 20-55-04.mkv",
+    "start": 29.5,
+    "end": 45.5,
+    "duration": 16,
+    "triggerTime": 44.5
+  },
+  {
+    "timestamp": "00:01:37",
+    "type": "Kill",
+    "inputPath": "F:\\Videos\\THE FINALS\\2023-11-04 20-55-04.mkv",
+    "start": 81.5,
+    "end": 106.5,
+    "duration": 25,
+    "triggerTime": 96.5
+  },
+  {
+    "timestamp": "00:01:48",
+    "type": "assist",
+    "inputPath": "F:\\Videos\\THE FINALS\\2023-11-04 20-55-04.mkv",
+    "start": 93,
+    "end": 119,
+    "duration": 26,
+    "triggerTime": 108
+  },
+  {
+    "timestamp": "00:01:58",
+    "type": "Death",
+    "inputPath": "F:\\Videos\\THE FINALS\\2023-11-04 20-55-04.mkv",
+    "start": 102.5,
+    "end": 119,
+    "duration": 16.5,
+    "triggerTime": 117.5
+  }
+]

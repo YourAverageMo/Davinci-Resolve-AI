@@ -1,0 +1,12 @@
+TITLE: Timeline 1
+FCM: NON-DROP FRAME
+
+001  001      V     C        00:00:01:00 00:00:01:01 00:00:01:00 00:00:01:01  
+ |C:ResolveColorBlue |M:Marker 1 |D:1
+
+002  001      V     C        00:00:02:00 00:00:02:01 00:00:02:00 00:00:02:01  
+ |C:ResolveColorGreen |M:Marker 2 |D:1
+
+003  001      V     C        00:00:02:30 00:00:02:31 00:00:02:30 00:00:02:31  
+ |C:ResolveColorBlue |M:Marker 3 |D:1
+
