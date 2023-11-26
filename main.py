@@ -3,6 +3,15 @@ import os
 
 
 def parse_json(input_file):
+    """
+    Parse a JSON file and extract relevant event information. Only event type and trigger time for now.
+
+    Parameters:
+    - input_file (str): Path to the input JSON file.
+
+    Returns:
+    - list: A list of dictionaries containing event information.
+    """
     with open(input_file, "r") as f:
         data = json.load(f)
 
@@ -19,6 +28,16 @@ def parse_json(input_file):
 
 
 def to_timecode(seconds, frame_rate=60):
+    """
+    Convert seconds to a timecode format (HH:MM:SS:FF) used by Davinci Resolve .EDL file format.
+
+    Parameters:
+    - seconds (int): The input time in seconds.
+    - frame_rate (int): The frame rate of the video (default is 60). For now this wont make a difference since input (seconds) is less granular than frames.
+
+    Returns:
+    - str: The timecode formatted string.
+    """
     # Calculate the total number of frames
     total_frames = int(seconds * frame_rate)
 
@@ -35,6 +54,15 @@ def to_timecode(seconds, frame_rate=60):
 
 
 def color_mapping(event_type):
+    """
+    Map event type to a corresponding color for Davinci Resolve. By Default kills are blue, assists are green, deaths are red.
+
+    Parameters:
+    - event_type (str): The type of event (kill, assist, death). Not case sensitive.
+
+    Returns:
+    - str: The color string.
+    """
     return {
         "kill": "Blue",
         "assist": "Green",
@@ -43,6 +71,15 @@ def color_mapping(event_type):
 
 
 def gen_markers(parsed_data):
+    """
+    Generate timeline markers for Davinci Resolve based on parsed event data.
+
+    Parameters:
+    - parsed_data (list): List of dictionaries containing event information.
+
+    Returns:
+    - list: A list of strings representing timeline markers.
+    """
     timeline_markers = []
     for index, event in enumerate(parsed_data, start=1):
         # Use the template structure from the "output" EDL file format
@@ -61,6 +98,13 @@ def gen_markers(parsed_data):
 
 
 def save_file(timeline_markers, output_file):
+    """
+    Save generated timeline markers to a .EDL file. To import in Davinci Resolve right click timeline > timelines > import > timeline markers from edl...
+
+    Parameters:
+    - timeline_markers (list): List of strings representing timeline markers.
+    - output_file (str): Path to the output file.
+    """
     with open(output_file, "w") as f:
         for marker in timeline_markers:
             f.write(marker + "\n" + "\n")
