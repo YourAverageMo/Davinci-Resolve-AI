@@ -1,0 +1,416 @@
+[
+  {
+    "timestamp": "00:00:04",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 4,
+    "end": 4,
+    "duration": 0,
+    "triggerTime": 4
+  },
+  {
+    "timestamp": "00:00:11",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 11,
+    "end": 11,
+    "duration": 0,
+    "triggerTime": 11
+  },
+  {
+    "timestamp": "00:00:12",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 11.5,
+    "end": 11.5,
+    "duration": 0,
+    "triggerTime": 11.5
+  },
+  {
+    "timestamp": "00:00:12",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 12,
+    "end": 12,
+    "duration": 0,
+    "triggerTime": 12
+  },
+  {
+    "timestamp": "00:00:27",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 27,
+    "end": 27,
+    "duration": 0,
+    "triggerTime": 27
+  },
+  {
+    "timestamp": "00:00:28",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 27.5,
+    "end": 27.5,
+    "duration": 0,
+    "triggerTime": 27.5
+  },
+  {
+    "timestamp": "00:00:30",
+    "type": "assist",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 29.5,
+    "end": 29.5,
+    "duration": 0,
+    "triggerTime": 29.5
+  },
+  {
+    "timestamp": "00:00:30",
+    "type": "assist",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 30,
+    "end": 30,
+    "duration": 0,
+    "triggerTime": 30
+  },
+  {
+    "timestamp": "00:00:31",
+    "type": "assist",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 30.5,
+    "end": 30.5,
+    "duration": 0,
+    "triggerTime": 30.5
+  },
+  {
+    "timestamp": "00:00:46",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 46,
+    "end": 46,
+    "duration": 0,
+    "triggerTime": 46
+  },
+  {
+    "timestamp": "00:00:47",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 46.5,
+    "end": 46.5,
+    "duration": 0,
+    "triggerTime": 46.5
+  },
+  {
+    "timestamp": "00:01:18",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 77.5,
+    "end": 77.5,
+    "duration": 0,
+    "triggerTime": 77.5
+  },
+  {
+    "timestamp": "00:01:18",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 78,
+    "end": 78,
+    "duration": 0,
+    "triggerTime": 78
+  },
+  {
+    "timestamp": "00:01:19",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 78.5,
+    "end": 78.5,
+    "duration": 0,
+    "triggerTime": 78.5
+  },
+  {
+    "timestamp": "00:01:22",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 82,
+    "end": 82,
+    "duration": 0,
+    "triggerTime": 82
+  },
+  {
+    "timestamp": "00:01:23",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 82.5,
+    "end": 82.5,
+    "duration": 0,
+    "triggerTime": 82.5
+  },
+  {
+    "timestamp": "00:01:23",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 83,
+    "end": 83,
+    "duration": 0,
+    "triggerTime": 83
+  },
+  {
+    "timestamp": "00:01:37",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 96.5,
+    "end": 96.5,
+    "duration": 0,
+    "triggerTime": 96.5
+  },
+  {
+    "timestamp": "00:01:49",
+    "type": "Death",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 108.5,
+    "end": 108.5,
+    "duration": 0,
+    "triggerTime": 108.5
+  },
+  {
+    "timestamp": "00:02:08",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 128,
+    "end": 128,
+    "duration": 0,
+    "triggerTime": 128
+  },
+  {
+    "timestamp": "00:02:36",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 156,
+    "end": 156,
+    "duration": 0,
+    "triggerTime": 156
+  },
+  {
+    "timestamp": "00:02:37",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 156.5,
+    "end": 156.5,
+    "duration": 0,
+    "triggerTime": 156.5
+  },
+  {
+    "timestamp": "00:02:52",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 172,
+    "end": 172,
+    "duration": 0,
+    "triggerTime": 172
+  },
+  {
+    "timestamp": "00:02:53",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 172.5,
+    "end": 172.5,
+    "duration": 0,
+    "triggerTime": 172.5
+  },
+  {
+    "timestamp": "00:02:53",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 173,
+    "end": 173,
+    "duration": 0,
+    "triggerTime": 173
+  },
+  {
+    "timestamp": "00:02:54",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 173.5,
+    "end": 173.5,
+    "duration": 0,
+    "triggerTime": 173.5
+  },
+  {
+    "timestamp": "00:02:54",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 174,
+    "end": 174,
+    "duration": 0,
+    "triggerTime": 174
+  },
+  {
+    "timestamp": "00:02:55",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 174.5,
+    "end": 174.5,
+    "duration": 0,
+    "triggerTime": 174.5
+  },
+  {
+    "timestamp": "00:02:59",
+    "type": "assist",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 179,
+    "end": 179,
+    "duration": 0,
+    "triggerTime": 179
+  },
+  {
+    "timestamp": "00:02:60",
+    "type": "assist",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 179.5,
+    "end": 179.5,
+    "duration": 0,
+    "triggerTime": 179.5
+  },
+  {
+    "timestamp": "00:03:00",
+    "type": "assist",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 180,
+    "end": 180,
+    "duration": 0,
+    "triggerTime": 180
+  },
+  {
+    "timestamp": "00:03:02",
+    "type": "assist",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 182,
+    "end": 182,
+    "duration": 0,
+    "triggerTime": 182
+  },
+  {
+    "timestamp": "00:03:03",
+    "type": "assist",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 182.5,
+    "end": 182.5,
+    "duration": 0,
+    "triggerTime": 182.5
+  },
+  {
+    "timestamp": "00:03:37",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 217,
+    "end": 217,
+    "duration": 0,
+    "triggerTime": 217
+  },
+  {
+    "timestamp": "00:03:51",
+    "type": "Death",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 231,
+    "end": 231,
+    "duration": 0,
+    "triggerTime": 231
+  },
+  {
+    "timestamp": "00:03:52",
+    "type": "Death",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 231.5,
+    "end": 231.5,
+    "duration": 0,
+    "triggerTime": 231.5
+  },
+  {
+    "timestamp": "00:04:23",
+    "type": "Death",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 263,
+    "end": 263,
+    "duration": 0,
+    "triggerTime": 263
+  },
+  {
+    "timestamp": "00:05:13",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 313,
+    "end": 313,
+    "duration": 0,
+    "triggerTime": 313
+  },
+  {
+    "timestamp": "00:05:14",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 313.5,
+    "end": 313.5,
+    "duration": 0,
+    "triggerTime": 313.5
+  },
+  {
+    "timestamp": "00:05:14",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 314,
+    "end": 314,
+    "duration": 0,
+    "triggerTime": 314
+  },
+  {
+    "timestamp": "00:05:30",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 330,
+    "end": 330,
+    "duration": 0,
+    "triggerTime": 330
+  },
+  {
+    "timestamp": "00:05:31",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 330.5,
+    "end": 330.5,
+    "duration": 0,
+    "triggerTime": 330.5
+  },
+  {
+    "timestamp": "00:05:37",
+    "type": "Death",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 336.5,
+    "end": 336.5,
+    "duration": 0,
+    "triggerTime": 336.5
+  },
+  {
+    "timestamp": "00:05:37",
+    "type": "Death",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 337,
+    "end": 337,
+    "duration": 0,
+    "triggerTime": 337
+  },
+  {
+    "timestamp": "00:05:45",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 345,
+    "end": 345,
+    "duration": 0,
+    "triggerTime": 345
+  },
+  {
+    "timestamp": "00:05:46",
+    "type": "Kill",
+    "inputPath": "C:\\Users\\Patrick Star\\Downloads\\y2mate.com - The WHOLE LOBBY was at the Cashout  THE FINALS_1080pFHR.mp4",
+    "start": 345.5,
+    "end": 345.5,
+    "duration": 0,
+    "triggerTime": 345.5
+  }
+]

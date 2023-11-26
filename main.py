@@ -63,15 +63,15 @@ def generate_timeline_markers(parsed_data):
 def save_to_file(timeline_markers, output_file):
     with open(output_file, "w") as f:
         for marker in timeline_markers:
-            f.write(marker + "\n")
+            f.write(marker + "\n" + "\n")
 
 
 # Example usage
 if __name__ == "__main__":
     # Set the input and output file paths to be in the same directory as main.py
     script_directory = os.path.dirname(os.path.abspath(__file__))
-    input_file_path = os.path.join(script_directory, "input.json")
-    output_file_path = os.path.join(script_directory, "output_markers.txt")
+    input_file_path = os.path.join(script_directory, "test_clips.json")
+    output_file_path = os.path.join(script_directory, "output_markers.edl")
 
     # Parse the JSON file
     parsed_data = parse_json(input_file_path)
