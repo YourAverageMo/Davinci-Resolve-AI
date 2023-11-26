@@ -10,11 +10,12 @@ def parse_json(input_file):
     for entry in data:
         event = {
             'type': entry['type'],
-            'trigger_time': entry['triggerTime'],
+            'trigger_time': int(entry['triggerTime']),  # Convert trigger_time to an integer
         }
         parsed_data.append(event)
 
     return parsed_data
+
 
 def generate_timeline_markers(parsed_data):
     timeline_markers = []
@@ -24,7 +25,7 @@ def generate_timeline_markers(parsed_data):
         marker_start_time = event['trigger_time']
         marker_start_time_plus_1_frame = marker_start_time + 1  # Adjust as needed
 
-        timeline_marker = f"{index:03d} 001 V C {marker_start_time:.2f} {marker_start_time_plus_1_frame:.2f} {marker_start_time:.2f} {marker_start_time_plus_1_frame:.2f}\n |C:Resolve{marker_color} |M:Marker {index:03d} |D:1"
+        timeline_marker = f"{index:03d} 001 V C {marker_start_time} {marker_start_time_plus_1_frame} {marker_start_time} {marker_start_time_plus_1_frame}\n |C:Resolve{marker_color} |M:Marker {index} |D:1"
         timeline_markers.append(timeline_marker)
 
     return timeline_markers
