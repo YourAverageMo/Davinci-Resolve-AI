@@ -15,6 +15,20 @@ def parse_json(input_file):
         parsed_data.append(event)
 
     return parsed_data
+def seconds_to_timecode(seconds, frame_rate=60):
+    # Calculate the total number of frames
+    total_frames = int(seconds * frame_rate)
+
+    # Calculate hours, minutes, seconds, and frames
+    hours = total_frames // (frame_rate * 60 * 60)
+    minutes = (total_frames // (frame_rate * 60)) % 60
+    seconds = (total_frames // frame_rate) % 60
+    frames = total_frames % frame_rate # this is always going to be 0
+
+    # Format the timecode as HH:MM:SS:FF
+    timecode = f"{hours:02d}:{minutes:02d}:{seconds:02d}:{frames:02d}"
+
+    return timecode
 
 
 def generate_timeline_markers(parsed_data):
@@ -22,13 +36,17 @@ def generate_timeline_markers(parsed_data):
     for index, event in enumerate(parsed_data, start=1):
         # Use the template structure from the "output" EDL file format
         marker_color = f"Color{event['type']}"
-        marker_start_time = event['trigger_time']
-        marker_start_time_plus_1_frame = marker_start_time + 1  # Adjust as needed
+        marker_start_time_seconds = event['trigger_time']
+        marker_start_time_tc = seconds_to_timecode(marker_start_time_seconds)
 
-        timeline_marker = f"{index:03d} 001 V C {marker_start_time} {marker_start_time_plus_1_frame} {marker_start_time} {marker_start_time_plus_1_frame}\n |C:Resolve{marker_color} |M:Marker {index} |D:1"
+        marker_start_time_plus_1_seconds = marker_start_time_seconds + 1
+        marker_start_time_plus_1_tc = seconds_to_timecode(marker_start_time_plus_1_seconds)
+
+        timeline_marker = f"{index:03d} 001 V C {marker_start_time_tc} {marker_start_time_plus_1_tc} {marker_start_time_tc} {marker_start_time_plus_1_tc}\n |C:Resolve{marker_color} |M:Marker {index} |D:1"
         timeline_markers.append(timeline_marker)
 
     return timeline_markers
+
 
 def save_to_file(timeline_markers, output_file):
     with open(output_file, 'w') as f:
